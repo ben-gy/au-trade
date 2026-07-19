@@ -1,8 +1,3 @@
-// feedback:begin (managed by hub/scripts/feedback/backfill.mjs)
-import { mountFeedback } from './feedback';
-mountFeedback();
-// feedback:end
-
 import './styles.css';
 import { mountAbout } from './components/about';
 import { mountDrilldown } from './components/drilldown';
