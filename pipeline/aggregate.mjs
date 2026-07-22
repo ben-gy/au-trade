@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 // Aggregate: turn the cached ABS CSV slices into the JSON the browser reads.
 //
 // Everything here is deterministic — same cache in, same bytes out.

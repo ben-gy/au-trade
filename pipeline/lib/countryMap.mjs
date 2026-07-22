@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 // ABS merchandise-trade country code → ISO 3166-1 alpha-3, for joining to
 // Natural Earth polygons.
 //

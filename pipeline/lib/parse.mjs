@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 // Pure, dependency-free transforms shared by the pipeline and the test suite.
 // Nothing in here may import a package — tests run this file directly on CI,
 // where pipeline/node_modules is not installed.

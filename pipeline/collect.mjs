@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 // Collect: pull every slice we need from the ABS SDMX API into pipeline/.cache/.
 // Nothing is transformed here — aggregate.mjs owns all the shaping, so a failed
 // aggregate never costs another 30 MB of ABS traffic.
