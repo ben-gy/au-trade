@@ -7,7 +7,6 @@ import { mountDrilldown } from './components/drilldown';
 import { initGlossary } from './components/glossaryPopover';
 import { initTooltip } from './components/tooltip';
 import { loadDataset } from './data';
-import { mountFeedback } from './feedback';
 import { escapeHtml, formatMoney, formatPeriodLong, shortCountry, shortName } from './format';
 import type { Commodity, Country, Dataset } from './types';
 import { renderBlindSpots } from './views/blindspots';
@@ -93,7 +92,6 @@ async function boot(): Promise<void> {
 
   initTooltip();
   initGlossary();
-  mountFeedback();
 
   const viewRoot = document.getElementById('view') as HTMLElement;
 
